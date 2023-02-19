@@ -1,0 +1,6 @@
+**** ACTUALIZA STOCK (TABLA TEC_PROD_STORE) ****
+select a.id, a.date, a.correlativo, b.product_id, c.name, c.marca, b.quantity, d.id id2, d.stock
+from tec_sales a inner join tec_sale_items b on a.id=b.sale_id
+left join tec_products c on b.product_id=c.id
+left join tec_prod_store d on c.id=d.product_id and d.store_id = a.store_id
+where a.anulado = '1' and a.tipoDoc = 5 and a.store_id=1	
