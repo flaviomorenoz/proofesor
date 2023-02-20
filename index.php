@@ -28,7 +28,7 @@ try{
 	<form name="form1" id="form1" method="post" action="index.php">
 
 		<div>
-			<label>Connie:</label>
+			<label>Connie : </label>
 		</div>
 
 		<div>
