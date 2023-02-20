@@ -36,7 +36,7 @@ try{
 
 	$baldosa = $_REQUEST["conexion"];
 
-	include("splash_conex.php");
+	include("onex/splash_conex.php");
 
 	$ar_con = conectais($baldosa);
 	//var_dump($ar_con);

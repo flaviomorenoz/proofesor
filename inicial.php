@@ -1,6 +1,6 @@
 <?php
 $mi_version = 1.1;
-include("splash_conex.php");
+include("onex/splash_conex.php");
 ?>
 <html>
     <head>
@@ -97,6 +97,13 @@ include("splash_conex.php");
 		        </div>
 			</div>
 			
+		</div>
+
+		<div class="row">
+			
+			<div id="textasos" class="col-sm-12 verlo" style="overflow: scroll; padding-top: 6px; display:none">
+			</div>
+
 		</div>
 
 		<div class="row">
